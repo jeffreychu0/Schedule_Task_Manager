@@ -46,6 +46,7 @@ GIF created with ...  Add GIF tool here
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
+- Had difficulty trying to center the header. Couldn't figure it out by submission time
 
 ## License
 

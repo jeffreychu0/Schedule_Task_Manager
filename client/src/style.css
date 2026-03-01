@@ -1,0 +1,18 @@
+@import "@picocss/pico/css/pico.min.css";
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;         
+    align-items: center;
+}
+
+.header-left {      
+    flex: auto;
+    padding: 10px;
+}
+
+.header-right {
+    flex: initial;
+    padding: 10px;
+}
