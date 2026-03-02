@@ -3,11 +3,11 @@
 .header-container {
     display: flex;
     flex-direction: row;
-    padding: 10px;         
+    padding: 10px;
     align-items: center;
 }
 
-.header-left {      
+.header-left {
     flex: auto;
     padding: 10px;
 }
@@ -15,4 +15,67 @@
 .header-right {
     flex: initial;
     padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: black;
+}
+
+.card-overdue {
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: black;
+    padding: 20px;
+    background-color: darkred;
+}
+
+.list {
+    padding-bottom: 20px;
+}
+
+.completed {
+    color: green;
+    text-decoration: line-through;
+}
+
+.note-details {
+    padding: 20px;
+    background-color: black;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.tasks {
+    padding: 20px;
+    background-color: black;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.err-404 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* vertical centering */
+    text-align: center;
 }

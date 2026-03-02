@@ -48,10 +48,5 @@ const renderNotes = async () => {
         mainContent.appendChild(h2Err)
     }
 }
-const requestedUrl = window.location.href.split('/').pop()
-if (requestedUrl) {
-    window.location.href = '../404.html'
-}
-else {
-    renderNotes();
-}
+
+renderNotes();

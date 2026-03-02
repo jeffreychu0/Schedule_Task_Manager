@@ -1,4 +1,4 @@
-const noteData = [
+const notesData = [
     {
         id: 1,
         name: "Finish Web103 Assignment",
@@ -7,7 +7,7 @@ const noteData = [
             { task: "Create Backend", completed: true },
             { task: "Submit Project", completed: true }
         ],
-        due_date: "2026-03-01"
+        dueDate: "2026-03-01"
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ const noteData = [
             { task: "Install tkinter", completed: true },
             { task: "Finalize completion of exploration task", completed: false }
         ],
-        due_date: "2026-02-28"
+        dueDate: "2026-02-28"
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ const noteData = [
             { task: "Create Backend", completed: false },
             { task: "Port website to the internet", completed: false}
         ],
-        due_date: "2026-05-01"
+        dueDate: "2026-05-01"
     },
     {
         id: 4,
@@ -39,8 +39,17 @@ const noteData = [
             { task: "Test and deploy", completed: false },
             { task: "Document process of creating the code", completed: false }
         ],
-        due_date: "2026-05-01"
+        dueDate: "2026-05-01"
+    },
+    {
+        id: 5,
+        name: "Design a micromouse",
+        details: [
+            { task: "Create Onshape account", completed: true },
+            { task: "begin CAD Development", completed: true },
+        ],
+        dueDate: "2026-05-01"
     }
 ];
 
-export default noteData;
+export default notesData;

@@ -15,7 +15,7 @@ const headerRight = document.createElement('div')
 headerRight.className = 'header-right'
 
 const headerBackbutton = document.createElement('button')
-headerBackbutton.textContent = "Home"
+headerBackbutton.textContent = "home"
 
 headerBackbutton.addEventListener('click', (event) => {
     window.location = '/'
