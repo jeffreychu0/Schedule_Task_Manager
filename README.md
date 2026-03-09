@@ -1,10 +1,10 @@
-# WEB103 Project 1 - Schedule_Task_Manager
+# WEB103 Project 2 - Schedule Task Manager
 
 Submitted by: Jeffrey Chu
 
-About this web app: Tired of worrying about your to-do items? This app will list all of your to-do items for you! Open up the app, explore your tasks, and check off whether you have completed them
+About this web app: Tired of worrying about your to-do items? This app will list all of your to-do items for you! Open up the app, explore your tasks, and check off whether you have completed them. Now with a Database connected to it!
 
-Time spent: **5** hours
+Time spent: 2 hours
 
 ## Required Features
 
@@ -12,30 +12,25 @@ The following **required** functionality is completed:
 
 <!-- Make sure to check off completed functionality below -->
 - [X] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [X] **The web app displays a title**
-- [X] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [X] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [X] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [X] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [X] **The web app serves an appropriate 404 page when no matching route is defined**
-- [X] **The web app is styled using Picocss**
+- [X] **The web app is connected to a PostgreSQL database, with an appropriately structured database table for the list items**
+  - [X] **NOTE: Your walkthrough added to the README must include a view of your Render dashboard demonstrating that your Postgres database is available**
+  - [X]  **NOTE: Your walkthrough added to the README must include a demonstration of your table contents. Use the psql command 'SELECT * FROM tablename;' to display your table contents.**
+
 
 The following **optional** features are implemented:
 
-- [X] The web app displays items in a unique format, such as cards rather than lists or animated list items
+- [ ] The user can search for items by a specific attribute
 
 The following **additional** features are implemented:
-
-- [X] Dynamically changing CSS based on data provided
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://i.imgur.com/JrIjLDm.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/WiIidY1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with LICECAP
+GIF created with Licecap
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -43,10 +38,7 @@ GIF created with LICECAP
 
 ## Notes
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
-- Had difficulty in configuring the header left to be centered vertically
-- App was created to complete current functionality requirements. In the future, I plan on adding more things to add and delete notes, etc
-- Learning Point: Whenever I tried making changes to the frontend, I had errors returned because my backend was not running. Remember to check if both ends are running when debugging issues
+Ran into a small issue with capitalizations in my database. I learned that my "dueDate" property was changed to "duedate", either because of my SQL query or because of a feature in postgreSQL
 
 ## License
 
