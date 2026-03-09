@@ -6,10 +6,10 @@ const renderNotes = async () => {
 
     if (data) {
         data.map(note => {
-
+            console.log(note);
             const cardDiv = document.createElement('div')
             
-            const dueDateObject = new Date(note.dueDate)
+            const dueDateObject = new Date(note.duedate)
             if (dueDateObject < Date.now()) {
                 cardDiv.className = "card-overdue"
             } else {
@@ -21,7 +21,7 @@ const renderNotes = async () => {
             cardDiv.appendChild(title)
 
             const dueDateText = document.createElement('p')
-            dueDateText.textContent = `Due Date: ${note.dueDate}`
+            dueDateText.textContent = `Due Date: ${note.duedate}`
             cardDiv.appendChild(dueDateText)
 
             const listDiv = document.createElement('div')

@@ -1,4 +1,5 @@
 import express from 'express'
+import './config/dotenv.js'
 import noteRouter from './routes/notes.js';
 
 const app = express();
