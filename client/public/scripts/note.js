@@ -22,7 +22,7 @@ const renderNote = async () => {
 
         const dueElem = document.createElement('p')
         dueElem.className = 'dueDate'
-        dueElem.textContent = "Due Date: " + note.dueDate
+        dueElem.textContent = "Due Date: " + note.duedate
         detailsDiv.appendChild(dueElem)
 
         // optional list of individual todo items from details
